@@ -1,0 +1,24 @@
+{
+  "name": "obsidian-split-preview",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A resizable Markdown preview inside the current Obsidian tab.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "typecheck": "tsc --noEmit",
+    "build": "npm run typecheck && node esbuild.config.mjs production",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "test:obsidian": "node tests/obsidian.mjs",
+    "check": "npm run build && npm test"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/node": "22.19.21",
+    "esbuild": "0.28.1",
+    "obsidian": "1.13.1",
+    "playwright": "1.61.1",
+    "typescript": "5.9.3"
+  }
+}

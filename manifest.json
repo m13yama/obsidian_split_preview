@@ -1,0 +1,9 @@
+{
+  "id": "split-preview",
+  "name": "Split Preview",
+  "version": "0.1.0",
+  "minAppVersion": "1.8.7",
+  "description": "Toggle a resizable, scroll-synced Markdown preview beside or below the editor in the same tab.",
+  "author": "yuki",
+  "isDesktopOnly": false
+}

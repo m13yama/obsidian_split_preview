@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="240" viewBox="0 0 600 240">
+  <rect width="600" height="240" rx="16" fill="#283448"/>
+  <rect x="30" y="30" width="245" height="180" rx="8" fill="#4b6384"/>
+  <rect x="300" y="30" width="270" height="180" rx="8" fill="#3a8c87"/>
+  <text x="152" y="130" text-anchor="middle" fill="white" font-family="sans-serif" font-size="28">Markdown</text>
+  <text x="435" y="130" text-anchor="middle" fill="white" font-family="sans-serif" font-size="28">Preview</text>
+</svg>
