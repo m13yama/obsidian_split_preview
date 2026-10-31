@@ -39,6 +39,17 @@ The command palette also provides **Split vertically**, **Split horizontally**, 
 
 ## Installation
 
+### Install with BRAT
+
+1. Install and enable **BRAT** from Obsidian's community plugins.
+2. Use BRAT's command to add a beta plugin.
+3. Enter `https://github.com/m13yama/obsidian_split_preview`, choose the latest release if prompted, and add the plugin.
+4. Enable **Split Preview** under **Settings → Community plugins** if BRAT has not already enabled it.
+
+BRAT downloads the plugin files from [GitHub Releases](https://github.com/m13yama/obsidian_split_preview/releases) and can keep the plugin up to date. See the [BRAT documentation](https://github.com/TfTHacker/obsidian42-brat) for its update options.
+
+### Manual installation
+
 Copy the built `dist/split-preview/` folder into your vault as `.obsidian/plugins/split-preview/`. It contains these three files:
 
 ```text
